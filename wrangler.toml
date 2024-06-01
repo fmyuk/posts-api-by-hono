@@ -1,0 +1,22 @@
+name = "posts-app"
+pages_build_output_dir = "./dist"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "posts-app"
+database_id = "317eff3e-6dbe-454a-9f66-f1b87490a5ef"
+preview_database_id = "DB"
+
+# [ai]
+# binding = "AI"
